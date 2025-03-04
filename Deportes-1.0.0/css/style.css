@@ -532,7 +532,7 @@ button.owl-next {
 
 .about_text {
     width: 100%;
-    font-size: 14px;
+    font-size: 1400000000000.p16037+x;
     color: #252525;
     margin: 0px;
     text-align: center;
@@ -562,7 +562,7 @@ button.owl-next {
     float: left;
     font-size: 18px;
     color: #ffffff;
-    background-color: #252525;
+    background-color: #391959;
     padding: 8px 0px;
     text-align: center;
     border-radius: 40px;
@@ -571,7 +571,7 @@ button.owl-next {
 
 .readmore_bt a:hover {
     color: #ffffff;
-    background-color: #fa7f63;
+    background-color: #f28705;
 }
 
 /* about section end */
@@ -711,7 +711,7 @@ button.owl-next {
     background-color: #fff;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    border-top-right-radius: 100px;
+    border-top-right-radius: 10px;
     border-bottom-right-radius: 100px;
     padding-left: 30px;
     margin-top: 45px;
@@ -742,7 +742,7 @@ button.owl-next {
     width: 100%;
     float: left;
     font-size: 24px;
-    color: #252525;
+    color: #391959;
     font-weight: bold;
 }
 
@@ -750,7 +750,7 @@ button.owl-next {
     width: 100%;
     float: left;
     font-size: 14px;
-    color: #f29448;
+    color: #f24405;
     margin: 0px;
 }
 
@@ -758,7 +758,7 @@ button.owl-next {
     width: 100%;
     float: left;
     font-size: 14px;
-    color: #252525;
+    color: #391959;
     margin: 0px;
     padding-top: 10px;
     padding-bottom: 30px;
@@ -773,7 +773,7 @@ button.owl-next {
 }
 
 .client_sectiion .carousel-indicators .active {
-    background-color: #252525;
+    background-color: #f29f05;
 }
 
 .client_img{
@@ -946,4 +946,36 @@ button.owl-next {
 
 
 /* copyright section end */
-
+/* Imágenes*/
+/* Imagenes */
+.client_main {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .client_main_2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .client_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .client_img {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .client_img img {
+    border: 5px solid #000;
+    border-radius: 100%;
+  }
+  
