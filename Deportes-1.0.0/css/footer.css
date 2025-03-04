@@ -1,0 +1,362 @@
+.dark-background {
+  --background-color: #060606;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #252525;
+  --contrast-color: #2a2727;
+}
+
+:root {
+  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --default-color: #fff; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #151515; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #f24405; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #312f2f; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --ignite-background-color: #ededf4;
+  --ignite-white: #ffffff;
+  --ignite-black: #000000;
+  --ignite-purple: #391959;
+  --ignite-title: #fff;
+}
+
+/*--------------------------------------------------------------
+# Global Footer
+--------------------------------------------------------------*/
+.footer_section {
+  color: var(--default-color);
+  background-color: var(--ignite-purple);
+  font-size: 14px;
+  position: relative;
+}
+
+.footer .footer-top {
+  padding: 50px 0 0 0;
+}
+
+.footer .footer-about .logo {
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.footer .footer-about .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.footer .footer-about .logo span {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: var(--heading-font);
+  color: var(--ignite-title);
+}
+
+.footer .footer-about p {
+  font-size: 14px;
+  font-family: var(--ignite-title);
+}
+
+.footer .social-links a {
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  background-color: color-mix(in srgb, var(--default-color) 5%, white 10%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+}
+
+.footer h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+  color: var(--ignite-title);
+}
+
+.footer .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-links ul i {
+  margin-right: 4px;
+  font-size: 12px;
+  line-height: 0;
+  color: var(--accent-color);
+}
+
+.footer .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-links ul li:first-child {
+  padding-top: 10px;
+}
+
+.footer .footer-links ul a {
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  display: inline-block;
+  line-height: 1;
+}
+
+.footer .footer-links ul a:hover {
+  color: var(--accent-color);
+}
+
+.footer .footer-contact p {
+  margin: 0;
+  color: var(--ignite-title);
+}
+.footer .footer-contact strong {
+  margin: 0;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.footer .footer-newsletter p {
+  margin: 0;
+}
+
+.footer .footer-newsletter .newsletter-form {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding: 6px 8px;
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
+  display: flex;
+  background-color: color-mix(
+    in srgb,
+    var(--footer-background-color) 90%,
+    white 15%
+  );
+  transition: 0.3s;
+}
+
+.footer .footer-newsletter .newsletter-form:focus-within {
+  border-color: var(--accent-color);
+}
+
+.footer .footer-newsletter .newsletter-form input[type="email"] {
+  border: 0;
+  padding: 4px;
+  width: 100%;
+  background-color: color-mix(
+    in srgb,
+    var(--footer-background-color) 90%,
+    white 15%
+  );
+  color: var(--default-color);
+}
+
+.footer .footer-newsletter .newsletter-form input[type="email"]:focus-visible {
+  outline: none;
+}
+
+.footer .footer-newsletter .newsletter-form input[type="submit"] {
+  border: 0;
+  font-size: 16px;
+  padding: 0 20px;
+  margin: -7px -8px -7px 0;
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+}
+
+.footer .footer-newsletter .newsletter-form input[type="submit"]:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+.footer .footer-newsletter p {
+  color: var(--default-color);
+}
+
+.footer .copyright {
+  padding: 30px 0;
+  background-color: var(--ignite-purple);
+}
+
+.footer .copyright p {
+  margin-bottom: 0;
+  color: var(--default-color);
+}
+
+.footer .credits {
+  margin-top: 5px;
+  font-size: 13px;
+  color: var(--default-color);
+}
+.footer .credits a {
+  color: var(--accent-color);
+}
+
+.footer .credits a:hover {
+  color: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+/* PHP Email Form Messages
+------------------------------*/
+.php-email-form .error-message {
+  display: none;
+  background: #df1529;
+  color: #ffffff;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.php-email-form .sent-message {
+  display: none;
+  color: #ffffff;
+  background: #059652;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.php-email-form .loading {
+  display: none;
+  background: var(--surface-color);
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+}
+
+.php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid var(--accent-color);
+  border-top-color: var(--surface-color);
+  animation: php-email-form-loading 1s linear infinite;
+}
+
+@keyframes php-email-form-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+.contact .info-item + .info-item {
+  margin-top: 40px;
+}
+.contact_section {
+  background: var(--ignite-background-color);
+}
+.contact_section .info-item i {
+  color: var(--ignite-white);
+  background: var(--accent-color);
+  font-size: 20px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
+
+.contact_section h1 {
+  width: 100%;
+  font-size: 40px;
+  color: #252525;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact_section .info-item {
+  margin-bottom: 30px;
+}
+
+.contact_section .info-item h3 {
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contact_section .info-item p {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.contact_section .php-email-form {
+  height: 100%;
+}
+.contact_section input {
+  margin-bottom: 20px;
+}
+
+.contact_section .php-email-form input[type="text"],
+.contact_section .php-email-form input[type="email"],
+.contact_section .php-email-form textarea {
+  font-size: 14px;
+  padding: 10px 15px;
+  box-shadow: none;
+  border-radius: 20px;
+  color: var(--default-color);
+  background-color: color-mix(
+    in srgb,
+    var(--background-color),
+    transparent 50%
+  );
+  border-color: color-mix(in srgb, var(--accent-color), transparent 70%);
+}
+
+.contact_section .php-email-form input[type="text"]:focus,
+.contact_section .php-email-form input[type="email"]:focus,
+.contact_section .php-email-form textarea:focus {
+  border-color: var(--default-color);
+}
+
+.contact_section .php-email-form input[type="text"]::placeholder,
+.contact_section .php-email-form input[type="email"]::placeholder,
+.contact_section .php-email-form textarea::placeholder {
+  color: color-mix(in srgb, var(--ignite-black), transparent 40%);
+}
+
+.contact_section .php-email-form button[type="submit"] {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border: 0;
+  padding: 10px 30px;
+  transition: 0.4s;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.contact_section .php-email-form button[type="submit"]:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
