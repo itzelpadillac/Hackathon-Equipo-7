@@ -214,7 +214,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-color: #ffffff;
+    background-color: #EDEDF4;
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -239,14 +239,14 @@ button {
 .navbar-light .navbar-nav .nav-link.active, 
 .navbar-light .navbar-nav .nav-link.show, 
 .navbar-light .navbar-nav .show>.nav-link {
-    color: #fa7e64;
+    color: #f24405;
 }
 .bg-light {
     background-color: transparent !important;
 }
 .navbar-light .navbar-nav .nav-link:focus, 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #fa7e64;
+    color: #f24405;
 }
 
 .user_icon {
@@ -261,7 +261,7 @@ button {
 }
 
 .user_icon a:hover{
-    color: #fa7e64;
+    color: #f28705;
 }
 
 .call_btn {
@@ -271,16 +271,16 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #fa7e65;
+    color: #ededf4;
+    background-color: #391959;
     border-radius: 40px;
     text-align: center;
     padding: 8px 20px;
 }
 
 .call_btn a:hover{
-    color: #000;
-    background-color: #fa7e65;
+    color: #391959;
+    background-color: #f29f05;
 }
 
 .padding_left10{
@@ -302,23 +302,23 @@ button {
     padding-bottom: 90px;
 }
 .banner_img {
-    width: 45%;
-    margin: 0 auto;
+    width: auto;
+    margin: auto;
     background-image: url(../imsges/banner-img.png);
     height: auto;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 80%;
     position: absolute;
-    top: 0px;
+    top: -60px;
     left: 0px;
     right: 0px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .banner_taital {
     width: 100%;
-    font-size: 150px;
-    color: #1c1b1b;
+    font-size: 95px;
+    color: #f24405;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
@@ -335,12 +335,13 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
-    background-color: #fa7f63;
+    color: #ededf4;
+    background-color: #391959;
     text-align: center;
     border-radius: 40px;
     padding: 10px 0px;
     text-transform: uppercase;
+    z-index: 10;
 }
 .contact_bt a:hover{
     background-color: #252525;
@@ -356,7 +357,8 @@ button {
 }
 
 .carousel-indicators .active {
-    background-color: #fa7f63;
+    background-color: #f29f05
+    ;
 }
 /* banner section end */
 
